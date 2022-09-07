@@ -13,18 +13,34 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
-
 Route::get('dashboard', function() {
     return view('dashboard');
 });
 
-Route::get('login', function() {
+Route::get('/', function() {
     return view('auth.login');
 });
 
 Route::get('registration', function() {
     return view('auth.registration');
+});
+
+Route::get('suratmasuk', function() {
+    return view('suratmasuk');
+});
+
+Route::get('suratkeluar', function() {
+    return view('suratkeluar');
+});
+
+Route::get('profile', function() {
+    return view('profile');
+});
+
+Route::get('reportsuratmasuk', function() {
+    return view('reportmasuk');
+});
+
+Route::get('reportsuratkeluar', function() {
+    return view('reportkeluar');
 });
