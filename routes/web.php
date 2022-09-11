@@ -44,3 +44,7 @@ Route::get('reportsuratmasuk', function() {
 Route::get('reportsuratkeluar', function() {
     return view('reportkeluar');
 });
+
+Route::get('temp', function() {
+    return view('temp');
+});
