@@ -1,6 +1,13 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\DashboardController;
+use App\Http\Controllers\ProfileController;
+use App\Http\Controllers\SuratMasukController;
+use App\Http\Controllers\SuratKeluarController;
+use App\Http\Controllers\ReportMasukController;
+use App\Http\Controllers\ReportKeluarController;
+
 
 /*
 |--------------------------------------------------------------------------
@@ -13,9 +20,17 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('dashboard', function() {
-    return view('dashboard');
-});
+Route::get('dashboard', [DashboardController::class, 'index'])->name('dashboard');
+
+Route::get('profile', [ProfileController::class, 'index'])->name('profile');
+
+Route::get('suratmasuk', [SuratMasukController::class, 'index'])->name('suratmasuk');
+
+Route::get('suratkeluar', [SuratKeluarController::class, 'index'])->name('suratkeluar');
+
+Route::get('reportsuratmasuk', [ReportMasukController::class, 'index'])->name('reportmasuk');
+
+Route::get('reportsuratkeluar', [ReportKeluarController::class, 'index'])->name('reportkeluar');
 
 Route::get('/', function() {
     return view('auth.login');
@@ -23,26 +38,6 @@ Route::get('/', function() {
 
 Route::get('registration', function() {
     return view('auth.registration');
-});
-
-Route::get('suratmasuk', function() {
-    return view('suratmasuk');
-});
-
-Route::get('suratkeluar', function() {
-    return view('suratkeluar');
-});
-
-Route::get('profile', function() {
-    return view('profile');
-});
-
-Route::get('reportsuratmasuk', function() {
-    return view('reportmasuk');
-});
-
-Route::get('reportsuratkeluar', function() {
-    return view('reportkeluar');
 });
 
 Route::get('temp', function() {

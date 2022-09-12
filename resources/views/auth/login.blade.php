@@ -24,7 +24,9 @@
 			<input type="text" placeholder="Password" class="block text-sm py-3 px-4 rounded-lg w-full border outline-none" />
     	</div>
 			<div class="text-center mt-6">
-				<button href="/dashboard" class="py-3 w-64 text-xl text-white bg-blue-400 rounded-2xl">Login</button>
+				<form action="/dashboard">
+					<button class="py-3 w-64 text-xl text-white bg-blue-700 rounded-2xl" type="button">Login</button>
+				</form>
 				<p class="mt-4 text-sm">Don't have an account? <a class="underline cursor-pointer" href="/registration"> Create Account</a>
 				</p>
 			</div>

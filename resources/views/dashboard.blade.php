@@ -1,34 +1,22 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="{{ asset('css/style.css') }}">
-	  <link rel="stylesheet" href="{{ asset('css/custom.css') }}">
-    <title>Dashboard</title>
-</head>
-<body>
+@extends('layouts.app')
+<!-- Content Dashboard -->   
+@section('content')
 
-  <div x-data="setup()" :class="{ 'dark': isDark }">
-    <div class="min-h-screen flex flex-col flex-auto flex-shrink-0 antialiased bg-white dark:bg-gray-700 text-black dark:text-white">
+        @include('components.header') 
       
-      @include('components.header') 
-      
-      @include('components.sidebar')
+        @include('components.sidebar')
 
-        <!-- Content Dashboard -->
         <div x-data="setup()" :class="{ 'dark': isDark }">
             <div class="min-h-screen flex flex-col flex-auto flex-shrink-0 antialiased bg-white dark:bg-gray-700 text-black dark:text-white">
               <div class="h-full ml-14 mt-14 mb-10 md:ml-64">
-                <div class="inline-flex md:c ol-span-2 xl:col-span-3 mt-4 mx-4 pl-4 rounded-lg shadow-lg border-b-4 border-blue-600 bg-blue-500 text-white w-48 h-10 dark:bg-gray-800 dark:border-gray-600">
+                <div class="inline-flex md:c ol-span-2 xl:col-span-3 mt-4 mx-4 pl-4 rounded-lg shadow-lg border-b-4 border-blue-600 bg-blue-500 text-white w-40 h-10 dark:bg-gray-800 dark:border-gray-600">
                     <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" class="w-6 h-6 m-1.5 mr-1 ml-1">
                       <path stroke-linecap="round" stroke-linejoin="round" d="M2.25 12l8.954-8.955c.44-.439 1.152-.439 1.591 0L21.75 12M4.5 9.75v10.125c0 .621.504 1.125 1.125 1.125H9.75v-4.875c0-.621.504-1.125 1.125-1.125h2.25c.621 0 1.125.504 1.125 1.125V21h4.125c.621 0 1.125-.504 1.125-1.125V9.75M8.25 21h8.25" />
                     </svg>            
-                  <h3 class="py-1 px-0.5 text-lg font-semibold uppercase">Dashboard</h3>
+                  <h3 class="py-2 mx-2 px-0.5 text-sm font-medium tracking-wider capitalize">Dashboard</h3>
                 </div>
             
-                <!-- Statistics Cards -->
+                <!-- Menu -->
                 <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 p-4 gap-4">
                   <div class="bg-blue-500 dark:bg-gray-800 shadow-lg rounded-md flex items-center justify-between p-3 border-b-4 border-blue-600 dark:border-gray-600 text-white font-medium group">
                     <div class="flex justify-center items-center w-14 h-14 bg-white rounded-full transition-all duration-300 transform group-hover:rotate-12  dark:group-hover:bg-blue-700">
@@ -73,13 +61,13 @@
                     </div>
                   </div>
                 </div>
-                <!-- ./Statistics Cards -->
+                <!-- ./Menu -->
 
                 
             
                 <div class="grid grid-cols-1 lg:grid-cols-2 p-4 gap-4">
             
-                  <!-- Social Traffic -->
+                  <!-- Surat Masuk Hari Ini -->
                   <div class="relative flex flex-col min-w-0 mb-4 lg:mb-0 break-words bg-gray-50 dark:bg-gray-800 w-full shadow-lg rounded">
                     <div class="rounded-t mb-0 px-0 border-0 bg-blue-400 dark:bg-gray-900">
                       <div class="flex flex-wrap items-center px-4 py-2 h-24">
@@ -175,9 +163,9 @@
                       </div>
                     </div>
                   </div>
-                  <!-- ./Social Traffic -->
+                  <!-- ./Surat Masuk Hari Ini-->
             
-                  <!-- Recent Activities -->
+                  <!-- Surat Keluar Hari Ini -->
                   <div class="relative flex flex-col min-w-0 mb-4 lg:mb-0 break-words bg-gray-50 dark:bg-gray-800 w-full shadow-lg rounded">
                     <div class="rounded-t mb-0 px-0 border-0 bg-blue-400 dark:bg-gray-900">
                       <div class="flex flex-wrap items-center px-4 py-2 h-24">
@@ -273,42 +261,14 @@
                       </div>
                     </div>
                   </div>
-                  <!-- ./Recent Activities -->
+                  <!-- ./Surat Keluar Hari Ini -->
                 </div>
             
                 
             </div>
           </div>
         </div>
-        <!-- Content Dashboard -->
-      </div>
-    </div>
+@endsection
+      
+<!-- Content Dashboard -->
 
-    <script src="https://cdn.jsdelivr.net/gh/alpinejs/alpine@v2.8.0/dist/alpine.min.js" defer></script>
-    <script>
-        const setup = () => {
-        const getTheme = () => {
-            if (window.localStorage.getItem('dark')) {
-            return JSON.parse(window.localStorage.getItem('dark'))
-            }
-            return !!window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches
-        }
-
-        const setTheme = (value) => {
-            window.localStorage.setItem('dark', value)
-        }
-
-        return {
-            loading: true,
-            isDark: getTheme(),
-            toggleTheme() {
-            this.isDark = !this.isDark
-            setTheme(this.isDark)
-            },
-        }
-        }
-    </script>
-    <script src="https://unpkg.com/flowbite@1.3.4/dist/flowbite.js"></script>
-
-</body>
-</html>

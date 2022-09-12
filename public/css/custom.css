@@ -116,3 +116,6 @@
           width: calc(100% - 16rem);
       }        
   }
+  .cari{
+    height: 38px;
+  }

@@ -5,10 +5,10 @@
     <span class="hidden md:block">Qiboi</span>
   </div>
   <div class="flex justify-between items-center h-14 bg-grey-100 dark:bg-gray-800 header-right">
-    <div class="bg-white rounded flex items-center w-full max-w-xl mr-4 shadow-sm justify-end">
+    <div class="bg-white rounded items-center w-full max-w-sm shadow-sm">
       <input type="search" name="" id="" placeholder="Search" class="relative w-full pl-3 text-sm text-black outline-none focus:outline-none bg-transparent" />
-      <button class="outline-none focus:outline-none absolute mr-2">
-        <svg class="w-5 text-gray-600 h-5 cursor-pointer" fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" stroke="currentColor" viewBox="0 0 24 24"><path d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"></path></svg>
+      <button class="cari outline-none focus:outline-none absolute bg-blue-700 p-2 py-2 rounded-r-full">
+        <svg class="w-5 text-white h-5 cursor-pointer" fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" stroke="currentColor" viewBox="0 0 24 24"><path d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"></path></svg>
       </button>
     </div>
     <ul class="flex items-center">

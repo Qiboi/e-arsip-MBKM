@@ -1,17 +1,6 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="/css/style.css">
-	<link rel="stylesheet" href="/css/custom.css">
-    <title>Report Surat Masuk</title>
-</head>
-<body>
-    <div x-data="setup()" :class="{ 'dark': isDark }">
-        <div class="min-h-screen flex flex-col flex-auto flex-shrink-0 antialiased bg-white dark:bg-gray-700 text-black dark:text-white">
-    
+@extends('layouts.app')
+
+@section('content')
           @include('components.header') 
       
           @include('components.sidebar')
@@ -19,11 +8,11 @@
           <div class="h-full ml-14 mt-14 mb-10 md:ml-64">
         
             <!-- Client Table -->
-            <div class="inline-flex md:col-span-2 xl:col-span-3 mt-4 mx-4 pl-4 rounded-lg shadow-lg border-b-4 border-blue-600 bg-blue-500 dark:bg-gray-800 dark:border-gray-600 text-white w-64 h-10">
+            <div class="inline-flex md:col-span-2 xl:col-span-3 mt-4 mx-4 pl-4 rounded-lg shadow-lg border-b-4 border-blue-600 bg-blue-500 dark:bg-gray-800 dark:border-gray-600 text-white w-56 h-10">
                 <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" class="w-6 h-6 m-1.5 mr-1 ml-1">
                     <path stroke-linecap="round" stroke-linejoin="round" d="M2.25 13.5h3.86a2.25 2.25 0 012.012 1.244l.256.512a2.25 2.25 0 002.013 1.244h3.218a2.25 2.25 0 002.013-1.244l.256-.512a2.25 2.25 0 012.013-1.244h3.859m-19.5.338V18a2.25 2.25 0 002.25 2.25h15A2.25 2.25 0 0021.75 18v-4.162c0-.224-.034-.447-.1-.661L19.24 5.338a2.25 2.25 0 00-2.15-1.588H6.911a2.25 2.25 0 00-2.15 1.588L2.35 13.177a2.25 2.25 0 00-.1.661z" />
                   </svg>                  
-                <h3 class="py-1 px-0.5 text-lg font-semibold uppercase">Report Surat Masuk</h3>
+                <h3 class="py-2 mx-2 px-0.5 text-sm font-medium tracking-wider capitalize">Report Surat Masuk</h3>
             </div>
             <div class="mt-10 mx-4">
               <div class="w-full overflow-hidden rounded-lg shadow-xs">
@@ -197,34 +186,4 @@
             </div>
             <!-- ./Client Table -->
         </div>
-      </div>
-
-</body>
-
-<script src="https://cdn.jsdelivr.net/gh/alpinejs/alpine@v2.8.0/dist/alpine.min.js" defer></script>
-  <script>
-    const setup = () => {
-      const getTheme = () => {
-        if (window.localStorage.getItem('dark')) {
-          return JSON.parse(window.localStorage.getItem('dark'))
-        }
-        return !!window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches
-      }
-
-      const setTheme = (value) => {
-        window.localStorage.setItem('dark', value)
-      }
-
-      return {
-        loading: true,
-        isDark: getTheme(),
-        toggleTheme() {
-          this.isDark = !this.isDark
-          setTheme(this.isDark)
-        },
-      }
-    }
-  </script>
-  <script src="https://unpkg.com/flowbite@1.3.4/dist/flowbite.js"></script>
-
-</html>
+@endsection

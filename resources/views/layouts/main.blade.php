@@ -4,14 +4,17 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="/css/style.css">
-	<link rel="stylesheet" href="/css/custom.css">
-    <title>Dashboard</title>
+    <link rel="stylesheet" href="{{ asset('css/style.css') }}">
+	  <link rel="stylesheet" href="{{ asset('css/custom.css') }}">
+    <title>{{ $title }}</title>
 </head>
 <body>
-    <div x-data="setup()" :class="{ 'dark': isDark }">
-        <div class="min-h-screen flex flex-col flex-auto flex-shrink-0 antialiased bg-white dark:bg-gray-700 text-black dark:text-white">
+
+  <div x-data="setup()" :class="{ 'dark': isDark }">
+    <div class="min-h-screen flex flex-col flex-auto flex-shrink-0 antialiased bg-white dark:bg-gray-700 text-black dark:text-white">
+       
             @yield('container')
+        
         </div>
     </div>
 
@@ -40,7 +43,6 @@
         }
     </script>
     <script src="https://unpkg.com/flowbite@1.3.4/dist/flowbite.js"></script>
-    <script src="../path/to/flowbite/dist/flowbite.js"></script>
 
 </body>
 </html>

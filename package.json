@@ -2,7 +2,8 @@
     "private": true,
     "scripts": {
         "dev": "vite",
-        "build": "vite build"
+        "build": "vite build",
+        "tail" : "npx tailwindcss -i ./resources/css/app.css -o ./public/css/style.css --watch"
         
     },
     "devDependencies": {
