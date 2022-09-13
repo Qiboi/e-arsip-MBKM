@@ -67,7 +67,7 @@
                         <th class="px-4 py-3">Indeks Surat</th>
                         <th class="px-4 py-3">Tujuan Surat</th>
                         <th class="px-4 py-3">Tanggal Keluar</th>
-                        <th class="px-4 py-3">Aksi</th>
+                        <th class="px-14 py-3">Aksi</th>
                       </tr>
                     </thead>
                     <tbody class="bg-white divide-y dark:divide-gray-700 dark:bg-gray-800">

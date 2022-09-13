@@ -16,15 +16,19 @@
 	</div>
 	
 	<div class="py-12 px-12 bg-white rounded-2xl shadow-xl z-20">
-		<div>
-			<h1 class="text-3xl font-bold text-center mb-4 cursor-pointer">Digital Arsip</h1>
+		<div class="flex justify-center mb-2">
+			<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="w-10 h-10">
+				<path fill-rule="evenodd" d="M5.625 1.5c-1.036 0-1.875.84-1.875 1.875v17.25c0 1.035.84 1.875 1.875 1.875h12.75c1.035 0 1.875-.84 1.875-1.875V12.75A3.75 3.75 0 0016.5 9h-1.875a1.875 1.875 0 01-1.875-1.875V5.25A3.75 3.75 0 009 1.5H5.625zM7.5 15a.75.75 0 01.75-.75h7.5a.75.75 0 010 1.5h-7.5A.75.75 0 017.5 15zm.75 2.25a.75.75 0 000 1.5H12a.75.75 0 000-1.5H8.25z" clip-rule="evenodd" />
+				<path d="M12.971 1.816A5.23 5.23 0 0114.25 5.25v1.875c0 .207.168.375.375.375H16.5a5.23 5.23 0 013.434 1.279 9.768 9.768 0 00-6.963-6.963z" />
+			</svg>			  
+			<span class="text-3xl font-bold text-center mb-4 cursor-pointer">Digital Arsip</span>			
 		</div>
 		<div class="space-y-4">
 			<input type="text" placeholder="Email Addres" class="block text-sm py-3 px-4 rounded-lg w-full border outline-none" />
 			<input type="text" placeholder="Password" class="block text-sm py-3 px-4 rounded-lg w-full border outline-none" />
     	</div>
 			<div class="text-center mt-6">
-				<form action="/dashboard">
+				<form action="{{ route('dashboard') }}">
 					<button class="py-3 w-64 text-xl text-white bg-blue-700 rounded-2xl" type="button">Login</button>
 				</form>
 				<p class="mt-4 text-sm">Don't have an account? <a class="underline cursor-pointer" href="/registration"> Create Account</a>

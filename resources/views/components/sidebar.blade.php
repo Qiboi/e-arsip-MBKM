@@ -1,5 +1,5 @@
   <!-- Sidebar -->
-  <div class="fixed flex flex-col top-14 left-0 w-14 hover:w-64 md:w-64 bg-blue-700 dark:bg-gray-900 h-full text-white transition-all duration-300 border-none z-10 sidebar">
+  <div class="barside fixed flex flex-col top-14 left-0 w-14 hover:w-64 md:w-64 bg-blue-700 dark:bg-gray-900 h-full text-white transition-all duration-300 border-none z-10 sidebar rounded-tr-3xl">
     <div class="overflow-y-auto overflow-x-hidden flex flex-col justify-between flex-grow">
       <ul class="flex flex-col py-4 space-y-1">
         <li class="px-5 hidden md:block">
@@ -59,15 +59,17 @@
           </div>
         </li>
         <li>
-          <a href="/profile" class="relative flex flex-row items-center h-11 focus:outline-none hover:bg-blue-500 dark:hover:bg-blue-700 text-white-600 hover:text-white-800 border-l-4 border-transparent hover:border-blue-500 dark:hover:border-gray-800 pr-6">
+          <a href="#" class="relative flex flex-row items-center h-11 focus:outline-none hover:bg-blue-500 dark:hover:bg-blue-700 text-white-600 hover:text-white-800 border-l-4 border-transparent hover:border-blue-500 dark:hover:border-gray-800 pr-6" data-modal-toggle="warning-modal">
             <span class="inline-flex justify-center items-center ml-4">
-              <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M16 7a4 4 0 11-8 0 4 4 0 018 0zM12 14a7 7 0 00-7 7h14a7 7 0 00-7-7z"></path></svg>
+              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" class="w-5 h-5">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M15.75 9V5.25A2.25 2.25 0 0013.5 3h-6a2.25 2.25 0 00-2.25 2.25v13.5A2.25 2.25 0 007.5 21h6a2.25 2.25 0 002.25-2.25V15m3 0l3-3m0 0l-3-3m3 3H9" />
+              </svg>              
             </span>
-            <span class="ml-2 text-sm tracking-wide truncate">Profile</span>
+            <span class="ml-2 text-sm tracking-wide truncate">Log Out</span>
           </a>
         </li>
       </ul>
-      <p class="mb-14 px-5 py-3 hidden md:block text-center text-xs">Copyright @2021</p>
+      <p class="mb-14 px-5 py-3 hidden md:block text-center text-xs">Qiboi @2022</p>
     </div>
   </div>
   <!-- ./Sidebar -->

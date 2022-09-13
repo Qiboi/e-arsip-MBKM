@@ -27,11 +27,11 @@
                             </button>
                         </div>
                         <div class="pl-20 pt-0.5">
-                            <button id="dropdownDefault" data-dropdown-toggle="dropdown" class="inline-flex w-40 h-8 bg-blue-500 dark:bg-gray-100 text-white active:bg-blue-700 dark:text-gray-800 dark:active:text-gray-700 text-xs font-bold uppercase px-3 py-1 rounded outline-none focus:outline-none mr-1 mb-1 ease-linear transition-all duration-150" type="button">
+                            <button id="dropdownDefault" data-dropdown-toggle="dropdownindex" class="inline-flex w-40 h-8 bg-blue-500 dark:bg-gray-100 text-white active:bg-blue-700 dark:text-gray-800 dark:active:text-gray-700 text-xs font-bold uppercase px-3 py-1 rounded outline-none focus:outline-none mr-1 mb-1 ease-linear transition-all duration-150" type="button">
                                 <span class="py-1 px-2">Filter Index</span>
                                 <svg class="w-6 h-6 ml-2" aria-hidden="true" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z" clip-rule="evenodd"></path></svg>
                             </button>
-                            <div id="dropdown" class="hidden z-10 w-44 bg-white rounded divide-y divide-gray-100 shadow dark:bg-gray-700" data-popper-reference-hidden="" data-popper-escaped="" data-popper-placement="bottom" style="position: absolute; inset: 0px auto auto 0px; margin: 0px; transform: translate(0px, 474px);">
+                            <div id="dropdownindex" class="hidden z-10 w-44 bg-white rounded divide-y divide-gray-100 shadow dark:bg-gray-700" data-popper-reference-hidden="" data-popper-escaped="" data-popper-placement="bottom" style="position: absolute; inset: 0px auto auto 0px; margin: 0px; transform: translate(0px, 474px);">
                                 <ul class="py-1 text-sm text-gray-700 dark:text-gray-200" aria-labelledby="dropdownDefault">
                                 <li>
                                     <a href="#" class="block py-2 px-4 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">Dashboard</a>
@@ -49,11 +49,11 @@
                             </div>
                         </div>
                         <div class="pl-20 pt-0.5">
-                            <button id="dropdownDefault" data-dropdown-toggle="dropdown" class="inline-flex w-44 h-8 bg-blue-500 dark:bg-gray-100 text-white active:bg-blue-700 dark:text-gray-800 dark:active:text-gray-700 text-xs font-bold uppercase px-3 py-1 rounded outline-none focus:outline-none mr-1 mb-1 ease-linear transition-all duration-150" type="button">
+                            <button id="dropdownDefault" data-dropdown-toggle="dropdowntanggal" class="inline-flex w-44 h-8 bg-blue-500 dark:bg-gray-100 text-white active:bg-blue-700 dark:text-gray-800 dark:active:text-gray-700 text-xs font-bold uppercase px-3 py-1 rounded outline-none focus:outline-none mr-1 mb-1 ease-linear transition-all duration-150" type="button">
                                 <span class="py-1 px-2">Filter Tanggal</span>
                                 <svg class="w-6 h-6 ml-2" aria-hidden="true" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z" clip-rule="evenodd"></path></svg>
                             </button>
-                            <div id="dropdown" class="hidden z-10 w-44 bg-white rounded divide-y divide-gray-100 shadow dark:bg-gray-700" data-popper-reference-hidden="" data-popper-escaped="" data-popper-placement="bottom" style="position: absolute; inset: 0px auto auto 0px; margin: 0px; transform: translate(0px, 474px);">
+                            <div id="dropdowntanggal" class="hidden z-10 w-44 bg-white rounded divide-y divide-gray-100 shadow dark:bg-gray-700" data-popper-reference-hidden="" data-popper-escaped="" data-popper-placement="bottom" style="position: absolute; inset: 0px auto auto 0px; margin: 0px; transform: translate(0px, 474px);">
                                 <ul class="py-1 text-sm text-gray-700 dark:text-gray-200" aria-labelledby="dropdownDefault">
                                 <li>
                                     <a href="#" class="block py-2 px-4 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">Dashboard</a>
@@ -74,12 +74,12 @@
                   <table class="w-full">
                     <thead>
                       <tr class="text-xs font-semibold tracking-wide text-left text-gray-500 uppercase border-b dark:border-gray-700 bg-gray-50 dark:text-gray-400 dark:bg-gray-800">
-                        <th class="px-4 py-3">No</th>
-                        <th class="px-4 py-3">Nomor Surat</th>
-                        <th class="px-4 py-3">Judul Surat</th>
-                        <th class="px-4 py-3">Indeks Surat</th>
-                        <th class="px-4 py-3">Asal Surat</th>
-                        <th class="px-4 py-3">Tanggal Masuk</th>
+                        <th class="px-8 py-3">No</th>
+                        <th class="px-8 py-3">Nomor Surat</th>
+                        <th class="px-10 py-3">Judul Surat</th>
+                        <th class="px-10 py-3">Indeks Surat</th>
+                        <th class="px-12 py-3">Asal Surat</th>
+                        <th class="px-10 py-3">Tanggal Masuk</th>
                       </tr>
                     </thead>
                     <tbody class="bg-white divide-y dark:divide-gray-700 dark:bg-gray-800">

@@ -14,9 +14,9 @@
     
           <!-- Header -->
           <div class="fixed w-full flex items-center justify-between h-14 text-black z-10 dark:text-white">
-            <div class="flex items-center justify-start md:justify-center pl-3 w-14 md:w-64 h-14 bg-grey-100 dark:bg-gray-800 border-none">
-              <img class="w-7 h-7 md:w-10 md:h-10 mr-2 rounded-md overflow-hidden" src="https://therminic2018.eu/wp-content/uploads/2018/07/dummy-avatar.jpg" />
-              <span class="hidden md:block">ADMIN</span>
+            <div class="flex items-center justify-start md:justify-center pl-3 w-14 md:w-64 h-14 bg-grey-100 dark:bg-gray-800 border-none font-semibold font-sans">
+              <img class="w-7 h-7 md:w-10 md:h-10 mr-2 rounded-full overflow-hidden" src="https://therminic2018.eu/wp-content/uploads/2018/07/dummy-avatar.jpg" />
+              <span class="hidden md:block">Qiboi</span>
             </div>
             <div class="flex justify-between items-center h-14 bg-grey-100 dark:bg-gray-800 header-right">
               <div class="bg-white rounded flex items-center w-full max-w-xl mr-4 p-2 shadow-sm border border-gray-400">
@@ -746,6 +746,40 @@
               </div>
             </div>
             <!-- ./External resources -->
+            <div class="shadow-lg rounded-lg overflow-hidden">
+              <div class="py-3 px-5 bg-gray-50 " style="position: relative; height:4vh; width:8vw">Pie chart</div>
+              <canvas class="p-10" id="chartPie"></canvas>
+            </div>
+            
+            <!-- Required chart.js -->
+            <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+            
+            <!-- Chart pie -->
+            <script>
+              const dataPie = {
+                labels: ["JavaScript", "Python", "Ruby"],
+                datasets: [
+                  {
+                    label: "My First Dataset",
+                    data: [300, 50, 100],
+                    backgroundColor: [
+                      "rgb(133, 105, 241)",
+                      "rgb(164, 101, 241)",
+                      "rgb(101, 143, 241)",
+                    ],
+                    hoverOffset: 4,
+                  },
+                ],
+              };
+            
+              const configPie = {
+                type: "pie",
+                data: dataPie,
+                options: {},
+              };
+            
+              var chartBar = new Chart(document.getElementById("chartPie"), configPie);
+            </script>
           </div>
         </div>
       </div>
