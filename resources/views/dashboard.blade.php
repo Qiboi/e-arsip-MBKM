@@ -72,7 +72,7 @@
                     <div class="rounded-t mb-0 px-0 border-0 bg-blue-400 dark:bg-gray-900">
                       <div class="flex flex-wrap items-center px-4 py-2 h-24">
                         <div class="relative w-full max-w-full flex-grow flex-1">
-                          <h3 class="font-semibold text-base text-white dark:text-gray-50">Surat Masuk Hari Ini</h3>
+                          <h3 class="font-semibold text-xs sm:text-base text-white dark:text-gray-50">Surat Masuk Hari Ini</h3>
                         </div>
                         <div class="relative w-full max-w-full flex-grow flex-1 text-right">
                           <button class="text-white dark:active:text-gray-700 text-xs font-bold uppercase px-3 py-1 rounded outline-none focus:outline-none mr-1 mb-1 ease-linear transition-all duration-150 dark:hover:text-blue-700" type="button">Lihat semua</button>
@@ -154,7 +154,7 @@
                     <div class="rounded-t mb-0 px-0 border-0 bg-blue-400 dark:bg-gray-900">
                       <div class="flex flex-wrap items-center px-4 py-2 h-24">
                         <div class="relative w-full max-w-full flex-grow flex-1">
-                          <h3 class="font-semibold text-base text-white dark:text-gray-50">Surat Keluar Hari Ini</h3>
+                          <h3 class="font-semibold text-xs sm:text-base text-white dark:text-gray-50">Surat Keluar Hari Ini</h3>
                         </div>
                         <div class="relative w-full max-w-full flex-grow flex-1 text-right">
                           <button class="text-white dark:active:text-gray-700 text-xs font-bold uppercase px-3 py-1 rounded outline-none focus:outline-none mr-1 mb-1 ease-linear transition-all duration-150 dark:hover:text-blue-700" type="button">Lihat semua</button>
