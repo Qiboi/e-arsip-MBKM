@@ -7,6 +7,10 @@ use App\Http\Controllers\SuratMasukController;
 use App\Http\Controllers\SuratKeluarController;
 use App\Http\Controllers\ReportMasukController;
 use App\Http\Controllers\ReportKeluarController;
+use App\Http\Controllers\EditDataMasukController;
+use App\Http\Controllers\EditDataKeluarController;
+use App\Http\Controllers\TambahDataMasukController;
+use App\Http\Controllers\TambahDataKeluarController;
 
 
 /*
@@ -31,6 +35,14 @@ Route::get('suratkeluar', [SuratKeluarController::class, 'index'])->name('suratk
 Route::get('reportsuratmasuk', [ReportMasukController::class, 'index'])->name('reportmasuk');
 
 Route::get('reportsuratkeluar', [ReportKeluarController::class, 'index'])->name('reportkeluar');
+
+Route::get('editdatamasuk', [EditDataMasukController::class, 'index'])->name('editdatamasuk');
+
+Route::get('editdatakeluar', [EditDataKeluarController::class, 'index'])->name('editdatakeluar');
+
+Route::get('tambahdatamasuk', [TambahDataMasukController::class, 'index'])->name('tambahdatamasuk');
+
+Route::get('tambahdatakeluar', [TambahDataKeluarController::class, 'index'])->name('tambahdatakeluar');
 
 Route::get('/', function() {
     return view('auth.login');

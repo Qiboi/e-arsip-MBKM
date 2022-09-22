@@ -81,58 +81,114 @@
                         <th class="px-10 py-3">Indeks Surat</th>
                         <th class="px-12 py-3">Tujuan Surat</th>
                         <th class="px-10 py-3">Tanggal Keluar</th>
+                        <th class="px-4 py-3">Aksi</th>
                       </tr>
                     </thead>
                     <tbody class="bg-white divide-y dark:divide-gray-700 dark:bg-gray-800">
                       <tr class="bg-gray-50 dark:bg-gray-800 hover:bg-gray-100 dark:hover:bg-gray-900 text-gray-700 dark:text-gray-400">
-                        <td class="px-4 py-3 text-sm">1</td>
-                        <td class="px-4 py-3 text-sm">$855.85</td>
-                        <td class="px-4 py-3 text-xs">
+                        <td class="px-8 py-3 text-sm">1</td>
+                        <td class="px-8 py-3 text-sm">$855.85</td>
+                        <td class="px-10 py-3 text-xs">
                           <span class="px-2 py-1 font-semibold leading-tight text-green-700 bg-green-100 rounded-full dark:bg-green-700 dark:text-green-100"> Approved </span>
                         </td>
-                        <td class="px-4 py-3 text-sm">15-01-2021</td>
-                        <td class="px-4 py-3 text-sm">15-01-2021</td>
-                        <td class="px-4 py-3 text-sm">15-01-2021</td>
+                        <td class="px-10 py-3 text-sm">15-01-2021</td>
+                        <td class="px-12 py-3 text-sm">15-01-2021</td>
+                        <td class="px-10 py-3 text-sm">15-01-2021</td>
+                        <td class="px-4 py-3 items-center">
+                          <ul class="inline-flex">
+                            <li class="flex rounded-full p-1 mx-1 bg-blue-600 text-gray-100 active:bg-blue-800">
+                              <button>
+                                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" class="w-6 h-6">
+                                  <path stroke-linecap="round" stroke-linejoin="round" d="M3 16.5v2.25A2.25 2.25 0 005.25 21h13.5A2.25 2.25 0 0021 18.75V16.5M16.5 12L12 16.5m0 0L7.5 12m4.5 4.5V3" />
+                                </svg>                                                                          
+                              </button>
+                            </li>
+                          </ul>
+                        </td>
                       </tr>
                       <tr class="bg-gray-50 dark:bg-gray-800 hover:bg-gray-100 dark:hover:bg-gray-900 text-gray-700 dark:text-gray-400">
-                        <td class="px-4 py-3">2</td>
-                        <td class="px-4 py-3 text-sm">$369.75</td>
-                        <td class="px-4 py-3 text-xs">
+                        <td class="px-8 py-3">2</td>
+                        <td class="px-8 py-3 text-sm">$369.75</td>
+                        <td class="px-10 py-3 text-xs">
                           <span class="px-2 py-1 font-semibold leading-tight text-yellow-700 bg-yellow-100 rounded-full"> Pending </span>
                         </td>
-                        <td class="px-4 py-3 text-sm">23-03-2021</td>
-                        <td class="px-4 py-3 text-sm">15-01-2021</td>
-                        <td class="px-4 py-3 text-sm">15-01-2021</td>
+                        <td class="px-10 py-3 text-sm">23-03-2021</td>
+                        <td class="px-12 py-3 text-sm">15-01-2021</td>
+                        <td class="px-10 py-3 text-sm">15-01-2021</td>
+                        <td class="px-4 py-3 items-center">
+                          <ul class="inline-flex">
+                            <li class="flex rounded-full p-1 mx-1 bg-blue-600 text-gray-100 active:bg-blue-800">
+                              <button>
+                                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" class="w-6 h-6">
+                                  <path stroke-linecap="round" stroke-linejoin="round" d="M3 16.5v2.25A2.25 2.25 0 005.25 21h13.5A2.25 2.25 0 0021 18.75V16.5M16.5 12L12 16.5m0 0L7.5 12m4.5 4.5V3" />
+                                </svg>                                                                          
+                              </button>
+                            </li>
+                          </ul>
+                        </td>
                       </tr>
                       <tr class="bg-gray-50 dark:bg-gray-800 hover:bg-gray-100 dark:hover:bg-gray-900 text-gray-700 dark:text-gray-400">
-                        <td class="px-4 py-3">3</td>
-                        <td class="px-4 py-3 text-sm">$775.45</td>
-                        <td class="px-4 py-3 text-xs">
+                        <td class="px-8 py-3">3</td>
+                        <td class="px-8 py-3 text-sm">$775.45</td>
+                        <td class="px-10 py-3 text-xs">
                           <span class="px-2 py-1 font-semibold leading-tight text-gray-700 bg-gray-100 rounded-full dark:text-gray-100 dark:bg-gray-700"> Expired </span>
                         </td>
-                        <td class="px-4 py-3 text-sm">09-02-2021</td>
-                        <td class="px-4 py-3 text-sm">15-01-2021</td>
-                        <td class="px-4 py-3 text-sm">15-01-2021</td>
+                        <td class="px-10 py-3 text-sm">09-02-2021</td>
+                        <td class="px-12 py-3 text-sm">15-01-2021</td>
+                        <td class="px-10 py-3 text-sm">15-01-2021</td>
+                        <td class="px-4 py-3 items-center">
+                          <ul class="inline-flex">
+                            <li class="flex rounded-full p-1 mx-1 bg-blue-600 text-gray-100 active:bg-blue-800">
+                              <button>
+                                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" class="w-6 h-6">
+                                  <path stroke-linecap="round" stroke-linejoin="round" d="M3 16.5v2.25A2.25 2.25 0 005.25 21h13.5A2.25 2.25 0 0021 18.75V16.5M16.5 12L12 16.5m0 0L7.5 12m4.5 4.5V3" />
+                                </svg>                                                                          
+                              </button>
+                            </li>
+                          </ul>
+                        </td>
                       </tr>
                       <tr class="bg-gray-50 dark:bg-gray-800 hover:bg-gray-100 dark:hover:bg-gray-900 text-gray-700 dark:text-gray-400">
-                        <td class="px-4 py-3">4</td>
-                        <td class="px-4 py-3 text-sm">$1276.75</td>
-                        <td class="px-4 py-3 text-xs">
+                        <td class="px-8 py-3">4</td>
+                        <td class="px-8 py-3 text-sm">$1276.75</td>
+                        <td class="px-10 py-3 text-xs">
                           <span class="px-2 py-1 font-semibold leading-tight text-green-700 bg-green-100 rounded-full dark:bg-green-700 dark:text-green-100"> Approved </span>
                         </td>
-                        <td class="px-4 py-3 text-sm">17-04-2021</td>
-                        <td class="px-4 py-3 text-sm">15-01-2021</td>
-                        <td class="px-4 py-3 text-sm">15-01-2021</td>
+                        <td class="px-10 py-3 text-sm">17-04-2021</td>
+                        <td class="px-12 py-3 text-sm">15-01-2021</td>
+                        <td class="px-10 py-3 text-sm">15-01-2021</td>
+                        <td class="px-4 py-3 items-center">
+                          <ul class="inline-flex">
+                            <li class="flex rounded-full p-1 mx-1 bg-blue-600 text-gray-100 active:bg-blue-800">
+                              <button>
+                                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" class="w-6 h-6">
+                                  <path stroke-linecap="round" stroke-linejoin="round" d="M3 16.5v2.25A2.25 2.25 0 005.25 21h13.5A2.25 2.25 0 0021 18.75V16.5M16.5 12L12 16.5m0 0L7.5 12m4.5 4.5V3" />
+                                </svg>                                                                          
+                              </button>
+                            </li>
+                          </ul>
+                        </td>
                       </tr>
                       <tr class="bg-gray-50 dark:bg-gray-800 hover:bg-gray-100 dark:hover:bg-gray-900 text-gray-700 dark:text-gray-400">
-                        <td class="px-4 py-3">5</td>
-                        <td class="px-4 py-3 text-sm">$863.45</td>
-                        <td class="px-4 py-3 text-xs">
+                        <td class="px-8 py-3">5</td>
+                        <td class="px-8 py-3 text-sm">$863.45</td>
+                        <td class="px-10 py-3 text-xs">
                           <span class="px-2 py-1 font-semibold leading-tight text-red-700 bg-red-100 rounded-full dark:text-red-100 dark:bg-red-700"> Denied </span>
                         </td>
-                        <td class="px-4 py-3 text-sm">11-01-2021</td>
-                        <td class="px-4 py-3 text-sm">15-01-2021</td>
-                        <td class="px-4 py-3 text-sm">15-01-2021</td>
+                        <td class="px-10 py-3 text-sm">11-01-2021</td>
+                        <td class="px-12 py-3 text-sm">15-01-2021</td>
+                        <td class="px-10 py-3 text-sm">15-01-2021</td>
+                        <td class="px-4 py-3 items-center">
+                          <ul class="inline-flex">
+                            <li class="flex rounded-full p-1 mx-1 bg-blue-600 text-gray-100 active:bg-blue-800">
+                              <button>
+                                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" class="w-6 h-6">
+                                  <path stroke-linecap="round" stroke-linejoin="round" d="M3 16.5v2.25A2.25 2.25 0 005.25 21h13.5A2.25 2.25 0 0021 18.75V16.5M16.5 12L12 16.5m0 0L7.5 12m4.5 4.5V3" />
+                                </svg>                                                                          
+                              </button>
+                            </li>
+                          </ul>
+                        </td>
                       </tr>
                     </tbody>
                   </table>

@@ -25,7 +25,7 @@
 		</div>
 		<div class="space-y-4">
 			<input type="text" placeholder="Email Addres" class="block text-sm py-3 px-4 rounded-lg w-full border outline-none" />
-			<input type="text" placeholder="Password" class="block text-sm py-3 px-4 rounded-lg w-full border outline-none" />
+			<input type="password" placeholder="Password" class="block text-sm py-3 px-4 rounded-lg w-full border outline-none" />
     	</div>
 			<div class="text-center mt-6">
 				<form action="{{ route('dashboard') }}">

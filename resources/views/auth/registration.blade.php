@@ -20,7 +20,7 @@
             <div class="space-y-4">
                 <input type="text" placeholder="Username" class="block text-sm py-3 px-4 rounded-lg w-full border outline-none" />
                 <input type="text" placeholder="Email Addres" class="block text-sm py-3 px-4 rounded-lg w-full border outline-none" />
-                <input type="text" placeholder="Password" class="block text-sm py-3 px-4 rounded-lg w-full border outline-none" />
+                <input type="password" placeholder="Password" class="block text-sm py-3 px-4 rounded-lg w-full border outline-none" />
         </div>
                 <div class="text-center mt-6">
                     <button class="py-3 w-64 text-xl text-white bg-blue-700 rounded-2xl">Create Account</button>

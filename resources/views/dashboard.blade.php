@@ -75,7 +75,8 @@
                           <h3 class="font-semibold text-xs sm:text-base text-white dark:text-gray-50">Surat Masuk Hari Ini</h3>
                         </div>
                         <div class="relative w-full max-w-full flex-grow flex-1 text-right">
-                          <button class="text-white dark:active:text-gray-700 text-xs font-bold uppercase px-3 py-1 rounded outline-none focus:outline-none mr-1 mb-1 ease-linear transition-all duration-150 dark:hover:text-blue-700" type="button">Lihat semua</button>
+                          <a href="{{ route('suratmasuk') }}">
+                            <button class="text-white dark:active:text-gray-700 text-xs font-bold uppercase px-3 py-1 rounded outline-none focus:outline-none mr-1 mb-1 ease-linear transition-all duration-150 dark:hover:text-blue-700" type="button">Lihat semua</button></a>
                         </div>
                       </div>
                       <div class="block w-full overflow-x-auto">
@@ -157,7 +158,9 @@
                           <h3 class="font-semibold text-xs sm:text-base text-white dark:text-gray-50">Surat Keluar Hari Ini</h3>
                         </div>
                         <div class="relative w-full max-w-full flex-grow flex-1 text-right">
-                          <button class="text-white dark:active:text-gray-700 text-xs font-bold uppercase px-3 py-1 rounded outline-none focus:outline-none mr-1 mb-1 ease-linear transition-all duration-150 dark:hover:text-blue-700" type="button">Lihat semua</button>
+                          <a href="{{ route('suratkeluar') }}">
+                            <button class= "text-white dark:active:text-gray-700 text-xs font-bold uppercase px-3 py-1 rounded outline-none focus:outline-none mr-1 mb-1 ease-linear transition-all duration-150 dark:hover:text-blue-700" type="button">Lihat semua</button>
+                          </a>
                         </div>
                       </div>
                       <div class="block w-full overflow-x-auto">

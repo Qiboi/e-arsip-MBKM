@@ -40,14 +40,14 @@
                                 </button>
                             </div>
                             <!-- Modal body -->
-                            <div class="p-6 space-y-6 text-gray-700 uppercase text-left font-semibold dark:text-white">
-                              <span>Nomor Surat</span>
+                            <div class="p-6 space-y-2 text-gray-700 capitalize text-left font-semibold dark:text-white">
+                              <label class="mb-10">Nomor Surat</label>
                               <input type="text" class="block text-sm py-3 px-4 rounded-lg w-full border outline-none dark:bg-gray-900" />
-                              <span>Judul Surat</span>
+                              <label>Judul Surat</label>
                               <input type="text" class="block text-sm py-3 px-4 rounded-lg w-full border outline-none dark:bg-gray-900" />
-                              <span>Indeks Surat</span>
+                              <label>Indeks Surat</label>
                               <input type="text" class="block text-sm py-3 px-4 rounded-lg w-full border outline-none dark:bg-gray-900" />
-                              <span>Asal Surat</span>
+                              <label>Asal Surat</label>
                               <input type="text" class="block text-sm py-3 px-4 rounded-lg w-full border outline-none dark:bg-gray-900" />
                             </div>
                             <!-- Modal footer -->

@@ -25,11 +25,11 @@
             </a>
             <ul id="dropdown-example" class="hidden bg-blue-800 dark:bg-gray-800">
               <li>
-                <a href="/suratmasuk"
+                <a href="{{ route('suratmasuk') }}"
                   class="flex items-center p-2 text-sm font-normal text-white-600 transition duration-75 group hover:bg-blue-500 dark:hover:bg-blue-700 dark:text-white pl-12">Surat Masuk</a>
               </li>
               <li>
-                <a href="/suratkeluar"
+                <a href="{{ route('suratkeluar') }}"
                   class="flex items-center p-2 text-sm font-normal text-white-600 transition duration-75 group hover:bg-blue-500 dark:hover:bg-blue-700 dark:text-white pl-12">Surat Keluar</a>
               </li>
             </ul>
@@ -44,11 +44,11 @@
             </a>
             <ul id="report" class="hidden bg-blue-800 dark:bg-gray-800">
               <li>
-                <a href="/reportsuratmasuk"
+                <a href="{{ route('reportmasuk') }}"
                   class="flex items-center p-2 text-sm font-normal text-white-600 transition duration-75 group hover:bg-blue-500 dark:hover:bg-blue-700 dark:text-white pl-12"> Report Surat Masuk</a>
               </li>
               <li>
-                <a href="/reportsuratkeluar"
+                <a href="{{ route('reportkeluar') }}"
                   class="flex items-center p-2 text-sm font-normal text-white-600 transition duration-75 group hover:bg-blue-500 dark:hover:bg-blue-700 dark:text-white pl-12">Report Surat Keluar</a>
               </li>
             </ul>
