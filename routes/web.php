@@ -11,7 +11,7 @@ use App\Http\Controllers\EditDataMasukController;
 use App\Http\Controllers\EditDataKeluarController;
 use App\Http\Controllers\TambahDataMasukController;
 use App\Http\Controllers\TambahDataKeluarController;
-
+use App\Http\Controllers\EditProfileController;
 
 /*
 |--------------------------------------------------------------------------
@@ -43,6 +43,8 @@ Route::get('editdatakeluar', [EditDataKeluarController::class, 'index'])->name('
 Route::get('tambahdatamasuk', [TambahDataMasukController::class, 'index'])->name('tambahdatamasuk');
 
 Route::get('tambahdatakeluar', [TambahDataKeluarController::class, 'index'])->name('tambahdatakeluar');
+
+Route::get('editprofile', [EditProfileController::class, 'index'])->name('editprofile');
 
 Route::get('/', function() {
     return view('auth.login');

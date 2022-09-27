@@ -80,7 +80,6 @@
                         <th class="px-10 py-3">Indeks Surat</th>
                         <th class="px-12 py-3">Asal Surat</th>
                         <th class="px-10 py-3">Tanggal Masuk</th>
-                        <th class="px-4 py-3">Aksi</th>
                       </tr>
                     </thead>
                     <tbody class="bg-white divide-y dark:divide-gray-700 dark:bg-gray-800">
@@ -92,18 +91,7 @@
                           </td>
                           <td class="px-10 py-3 text-sm">15-01-2021</td>
                           <td class="px-12 py-3 text-sm">15-01-2021</td>
-                          <td class="px-10 py-3 text-sm">15-01-2021</td>
-                          <td class="px-4 py-3 items-center">
-                            <ul class="inline-flex">
-                              <li class="flex rounded-full p-1 mx-1 bg-blue-600 text-gray-100 active:bg-blue-800">
-                                <button>
-                                  <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" class="w-6 h-6">
-                                    <path stroke-linecap="round" stroke-linejoin="round" d="M3 16.5v2.25A2.25 2.25 0 005.25 21h13.5A2.25 2.25 0 0021 18.75V16.5M16.5 12L12 16.5m0 0L7.5 12m4.5 4.5V3" />
-                                  </svg>                                                                          
-                                </button>
-                              </li>
-                            </ul>
-                          </td>
+                          <td class="px-10 py-3 text-sm">15-01-2021</td>                        
                         </tr>
                         <tr class="bg-gray-50 dark:bg-gray-800 hover:bg-gray-100 dark:hover:bg-gray-900 text-gray-700 dark:text-gray-400">
                           <td class="px-8 py-3">2</td>
@@ -113,18 +101,7 @@
                           </td>
                           <td class="px-10 py-3 text-sm">23-03-2021</td>
                           <td class="px-12 py-3 text-sm">15-01-2021</td>
-                          <td class="px-10 py-3 text-sm">15-01-2021</td>
-                          <td class="px-4 py-3 items-center">
-                            <ul class="inline-flex">
-                              <li class="flex rounded-full p-1 mx-1 bg-blue-600 text-gray-100 active:bg-blue-800">
-                                <button>
-                                  <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" class="w-6 h-6">
-                                    <path stroke-linecap="round" stroke-linejoin="round" d="M3 16.5v2.25A2.25 2.25 0 005.25 21h13.5A2.25 2.25 0 0021 18.75V16.5M16.5 12L12 16.5m0 0L7.5 12m4.5 4.5V3" />
-                                  </svg>                                                                          
-                                </button>
-                              </li>
-                            </ul>
-                          </td>
+                          <td class="px-10 py-3 text-sm">15-01-2021</td>                        
                         </tr>
                         <tr class="bg-gray-50 dark:bg-gray-800 hover:bg-gray-100 dark:hover:bg-gray-900 text-gray-700 dark:text-gray-400">
                           <td class="px-8 py-3">3</td>
@@ -134,18 +111,7 @@
                           </td>
                           <td class="px-10 py-3 text-sm">09-02-2021</td>
                           <td class="px-12 py-3 text-sm">15-01-2021</td>
-                          <td class="px-10 py-3 text-sm">15-01-2021</td>
-                          <td class="px-4 py-3 items-center">
-                            <ul class="inline-flex">
-                              <li class="flex rounded-full p-1 mx-1 bg-blue-600 text-gray-100 active:bg-blue-800">
-                                <button>
-                                  <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" class="w-6 h-6">
-                                    <path stroke-linecap="round" stroke-linejoin="round" d="M3 16.5v2.25A2.25 2.25 0 005.25 21h13.5A2.25 2.25 0 0021 18.75V16.5M16.5 12L12 16.5m0 0L7.5 12m4.5 4.5V3" />
-                                  </svg>                                                                          
-                                </button>
-                              </li>
-                            </ul>
-                          </td>
+                          <td class="px-10 py-3 text-sm">15-01-2021</td>                        
                         </tr>
                         <tr class="bg-gray-50 dark:bg-gray-800 hover:bg-gray-100 dark:hover:bg-gray-900 text-gray-700 dark:text-gray-400">
                           <td class="px-8 py-3">4</td>
@@ -155,18 +121,7 @@
                           </td>
                           <td class="px-10 py-3 text-sm">17-04-2021</td>
                           <td class="px-12 py-3 text-sm">15-01-2021</td>
-                          <td class="px-10 py-3 text-sm">15-01-2021</td>
-                          <td class="px-4 py-3 items-center">
-                            <ul class="inline-flex">
-                              <li class="flex rounded-full p-1 mx-1 bg-blue-600 text-gray-100 active:bg-blue-800">
-                                <button>
-                                  <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" class="w-6 h-6">
-                                    <path stroke-linecap="round" stroke-linejoin="round" d="M3 16.5v2.25A2.25 2.25 0 005.25 21h13.5A2.25 2.25 0 0021 18.75V16.5M16.5 12L12 16.5m0 0L7.5 12m4.5 4.5V3" />
-                                  </svg>                                                                          
-                                </button>
-                              </li>
-                            </ul>
-                          </td>
+                          <td class="px-10 py-3 text-sm">15-01-2021</td>                        
                         </tr>
                         <tr class="bg-gray-50 dark:bg-gray-800 hover:bg-gray-100 dark:hover:bg-gray-900 text-gray-700 dark:text-gray-400">
                           <td class="px-8 py-3">5</td>
@@ -176,18 +131,7 @@
                           </td>
                           <td class="px-10 py-3 text-sm">11-01-2021</td>
                           <td class="px-12 py-3 text-sm">15-01-2021</td>
-                          <td class="px-10 py-3 text-sm">15-01-2021</td>
-                          <td class="px-4 py-3 items-center">
-                            <ul class="inline-flex">
-                              <li class="flex rounded-full p-1 mx-1 bg-blue-600 text-gray-100 active:bg-blue-800">
-                                <button>
-                                  <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" class="w-6 h-6">
-                                    <path stroke-linecap="round" stroke-linejoin="round" d="M3 16.5v2.25A2.25 2.25 0 005.25 21h13.5A2.25 2.25 0 0021 18.75V16.5M16.5 12L12 16.5m0 0L7.5 12m4.5 4.5V3" />
-                                  </svg>                                                                          
-                                </button>
-                              </li>
-                            </ul>
-                          </td>
+                          <td class="px-10 py-3 text-sm">15-01-2021</td>                        
                         </tr>
                       </tbody>
                   </table>
