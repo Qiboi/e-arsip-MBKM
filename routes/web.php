@@ -12,6 +12,7 @@ use App\Http\Controllers\EditDataKeluarController;
 use App\Http\Controllers\TambahDataMasukController;
 use App\Http\Controllers\TambahDataKeluarController;
 use App\Http\Controllers\EditProfileController;
+use App\Http\Controllers\PasswordController;
 
 /*
 |--------------------------------------------------------------------------
@@ -45,6 +46,8 @@ Route::get('tambahdatamasuk', [TambahDataMasukController::class, 'index'])->name
 Route::get('tambahdatakeluar', [TambahDataKeluarController::class, 'index'])->name('tambahdatakeluar');
 
 Route::get('editprofile', [EditProfileController::class, 'index'])->name('editprofile');
+
+Route::get('password', [PasswordController::class, 'index'])->name('password');
 
 Route::get('/', function() {
     return view('auth.login');
